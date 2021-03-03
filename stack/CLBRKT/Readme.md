@@ -45,7 +45,8 @@ As Q ~ N, Complexity is quadratic.
 #### Space Complexity
 > O(1)
 As we just used local variable, not allocated any additional space which can grow with input. 
-See naiveApproach.java file to view entire code. 
+
+##### See naiveApproach.java file to view entire code. 
 
 ### Optimized approach
 1. We need to preprocess to reduce query time.
@@ -93,3 +94,5 @@ As Q ~ N, Complexity is linear.
 #### Space Complexity
 > O(N)
 To store preprocessed array. 
+
+##### See optimizedApproach.java file to view entire code. 
