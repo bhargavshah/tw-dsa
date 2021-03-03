@@ -11,14 +11,14 @@ while(i < s.length() && s.charAt(i) == ')') {
     i++;
 }
 ```
-2. Keep incrementing counter for opening brackets till we get
+2. Keep incrementing counter for opening brackets till we get opening brackets
 ```java
 while(i < s.length() && s.charAt(i) == '(') {
     i++;
     cnt++;
 }
 ```
-3. Keep decrementing counter for closing brackets till we get
+3. Keep decrementing counter for closing brackets till we get closing brackets
 ```java
 while(i < s.length() && s.charAt(i) == ')' && cnt > 0) {
     i++;
