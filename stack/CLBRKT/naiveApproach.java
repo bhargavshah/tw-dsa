@@ -7,7 +7,7 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		FastReader sc=new FastReader();
-        PrintWriter pr= new PrintWriter(System.out);
+	        PrintWriter pr= new PrintWriter(System.out);
 		int t = sc.nextInt();
 		while(t-- > 0) {
 		    String s = sc.next();
