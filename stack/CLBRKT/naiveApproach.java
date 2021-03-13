@@ -72,7 +72,7 @@ class Codechef
         } 
 
         long nextLong() {
-			return Long.parseLong(next());
-		}
+		return Long.parseLong(next());
+	}
     }
 }
