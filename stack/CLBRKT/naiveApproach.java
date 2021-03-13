@@ -17,7 +17,7 @@ class Codechef
 		        pr.println(canAttackAt(s, q));    
 		    }
 		    
-            pr.flush();
+	            pr.flush();
 		}
 	}
 	
